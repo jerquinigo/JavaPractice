@@ -17,11 +17,11 @@ public class Droid {
     }
   
     public static void main(String[] arg){
-      Droid droid1 = new Droid("Corey");
-      System.out.println(droid1);
-      droid1.toString();
-      System.out.println("battery status: " + batteryLevel);
-      droid1.performTask("walking");
-      System.out.println("battery status: " + batteryLevel);
+      // Droid droid1 = new Droid("Corey");
+      // System.out.println(droid1);
+      // droid1.toString();
+      // System.out.println("battery status: " + batteryLevel);
+      // droid1.performTask("walking");
+      // System.out.println("battery status: " + batteryLevel);
     }
   }
