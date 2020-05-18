@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class TryCatch {
 
     public String userInputTry(){
-        try {
         Scanner scan = new Scanner(System.in);
-
-            System.out.println("what is your favorite number? ");
+        try {
+    
+        System.out.println("what is your favorite number? ");
 
         String favoriteNum = scan.nextLine();
 
@@ -15,6 +15,12 @@ public class TryCatch {
         }
         catch(InputMismatchException exception) {
             return "Invalid input, please try again";
+        }
+        finally {
+            //finally will always run. It will run with try. It is meant to be used for closing out code to avoid memory leaks
+            
+            scan.close();
+            System.out.println("scan closed");
         }
      
     }
