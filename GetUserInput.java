@@ -19,6 +19,7 @@ public class GetUserInput {
 
         System.out.println("Thank you " + name);
         System.out.println("So you are " + age + " years old and your favorite quote is " + quote);
+        scan.close();
 
 
 
