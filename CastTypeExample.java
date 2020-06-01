@@ -13,13 +13,13 @@ public class CastTypeExample {
 
         //some primitive data types - byte, short, char, int, long, float, double
 
-        byte a;
-        short b;
-        char c;
-        int d;
-        long e;
-        float f;
-        double g;
+        // byte a;
+        // short b;
+        // char c;
+        // int d;
+        // long e;
+        // float f;
+        // double g;
 
         //if you were to use int and then store it to double, it will cast to double by default.
 
