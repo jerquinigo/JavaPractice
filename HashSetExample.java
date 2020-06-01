@@ -1,5 +1,5 @@
 import java.util.HashSet;
-
+import java.util.Iterator;
 
 
 public class HashSetExample {
@@ -39,6 +39,16 @@ public class HashSetExample {
         //697960108 is the algorithm value used for this instance
      
 
+        // we will now iterate through the hash set
 
+        Iterator<Integer> iterate = hashbrowns.iterator();
+
+        while(iterate.hasNext()) {
+            System.out.println(iterate.next());
+        }
+        // this will print out 5,24,13
+        
+
+        
     }
 }
